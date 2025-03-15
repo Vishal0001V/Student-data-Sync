@@ -18,7 +18,7 @@ public class Homeontroller {
 
     @Autowired
     private StudentService ss; // Service layer for student-related operations
-     // this is the main or default controller
+     // this is the main or default controller to handle the different types of the requests
     // Displays the login page
     @RequestMapping("/")
     public String preLogin() {
